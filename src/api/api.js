@@ -1,5 +1,3 @@
-// src/api/api.js
-
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
 export const fetchPhotos = createAsyncThunk("photos/fetchPhotos", async () => {

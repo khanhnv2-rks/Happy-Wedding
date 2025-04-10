@@ -19,7 +19,7 @@ const PhotoDetail = () => {
   useEffect(() => {
     const found = list.find((photo) => photo.id.toString() === id);
     setPhoto(found);
-  }, [list,id]);
+  }, [list, id]);
 
   if (loading) return <p>Đang tải...</p>
 
