@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <div>
-      <h2>Danh sách ảnh</h2>
+      <h2>Danh sách ảnh Test 123</h2>
       <ul style={{ listStyle: "none", padding: 0 }}>
         {list.map((item) => (
           <li key={item.id} style={{ marginBottom: "20px" }}>
