@@ -1,0 +1,16 @@
+.not-found {
+    font-family: sans-serif;
+    color: #333;
+  }
+  
+  .not-found h1 {
+    font-size: 96px;
+    margin-bottom: 0;
+    color: #e63946;
+  }
+  
+  .not-found p {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
